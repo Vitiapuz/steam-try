@@ -1,0 +1,131 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(27, 40, 56);
+      }
+
+ .header {
+      background-color: #171a21;
+      }
+
+  .header_content {
+      padding-left: 125px;
+      padding-right: 125px;
+      z-index: 1;
+      display: block;
+      position: relative;
+      margin: 0px auto;
+      overflow: hidden;
+      }
+
+    ul {
+      list-style-type:none;
+      }
+
+    li {
+      display: inline-block;
+      }
+
+ .intro {
+      width: 600px;
+      height: 90px;
+      z-index: 2;
+      margin-left: 5%;
+      display: inline-block;
+      }
+
+    .intro a {
+      color: LightGray;
+      font-size: 14px;
+      font-family: sans-serif;
+      text-decoration: none;
+      padding: 5px;
+      }
+
+    .intro a:hover {
+      color:hsla(9, 100%, 100%, 1);
+      }
+
+    .img-logo {
+      vertical-align: middle;
+      }
+
+ .enter {
+      width: 350px;
+      height: 0px;
+      margin-left: 55%;
+      z-index: 3;
+      display: inline-block;
+      }
+
+
+    .enter span {
+      color: LightGray;
+      font-size: 13px;
+      margin: 0;
+      text-decoration: none;
+      padding: 4px;
+      }
+
+    .enter span:hover {
+      color:hsla(9, 100%, 100%, 1);
+      }
+
+ .dropbtn {
+      background-color: #171a21;
+      color: LightGrey;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      opacity: 1;
+      }
+
+  .dropbtn:hover, .dropbtn:focus {
+      background-color: none;
+      color: white;
+      }
+
+  .dropdown {
+      position: relative;
+      display: inline-block;
+      }
+
+  .dropdown-content {
+      display: none;
+      position: fixed;
+      background-color: red;
+      min-width: 50px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 5;
+      }
+
+  .dropdown-content a {
+      color: white;
+      padding: 10px 13px;
+      text-decoration: none;
+      display: block;
+      }
+
+  .dropdown a:hover { background-color: #ddd; }
+
+  .show { display:block; }
+
+ .footer {
+      background-color: #171a21;
+      text-align: center;
+      padding: 10px;
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+      }
+  .footer a {
+      text-decoration: none;
+      color: LightGrey;
+      }
+
+@media only screen and (max-width: 900px) {
+  .header {
+  width: 100%;
+ }
+ }
